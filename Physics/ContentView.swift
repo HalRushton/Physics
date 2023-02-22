@@ -15,15 +15,15 @@ struct ContentView: View {
                     .fill(LinearGradient(gradient: Gradient(colors: [Color.backgroundy, Color.brown]), startPoint: .topLeading, endPoint: .bottom)).ignoresSafeArea()
                 VStack {
                     NavigationLink(destination: {
-                        ConfettiMenu()
-                    }, label: {
-                        Text("Confetti")
-                    }).buttonStyle(.borderedProminent)
-                        .padding()
-                    NavigationLink(destination: {
                         AnimationView()
                     }, label: {
                         Text("Animation View")
+                    }).buttonStyle(.borderedProminent)
+                        .padding()
+                    NavigationLink(destination: {
+                        ConfettiMenu()
+                    }, label: {
+                        Text("Confetti")
                     }).buttonStyle(.borderedProminent)
                         .padding()
                 }
