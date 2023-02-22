@@ -30,7 +30,6 @@ struct ConfettiMenu: View {
                 ConfettiViewCoordinator(viewModel: ConfettiViewModel()).start()
             }
         }
-        .padding()
     }
 }
 

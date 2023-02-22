@@ -12,8 +12,7 @@ struct ContentView: View {
         NavigationStack {
             ZStack {
                 Rectangle()
-                    .fill(LinearGradient(gradient: Gradient(colors: [Color.backgroundy, Color.brown]), startPoint: .topLeading, endPoint: .bottom))
-            .ignoresSafeArea()
+                    .fill(LinearGradient(gradient: Gradient(colors: [Color.backgroundy, Color.brown]), startPoint: .topLeading, endPoint: .bottom)).ignoresSafeArea()
                 VStack {
                     NavigationLink(destination: {
                         ConfettiMenu()
