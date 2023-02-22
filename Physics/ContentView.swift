@@ -10,19 +10,24 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            VStack {
-                NavigationLink(destination: {
-                    ConfettiMenu()
-                }, label: {
-                    Text("Confetti")
-                }).buttonStyle(.borderedProminent)
-                    .padding()
-                NavigationLink(destination: {
-                    AnimationView()
-                }, label: {
-                    Text("Animation View")
-                }).buttonStyle(.borderedProminent)
-                    .padding()
+            ZStack {
+                Rectangle()
+                    .fill(LinearGradient(gradient: Gradient(colors: [Color.backgroundy, Color.brown]), startPoint: .topLeading, endPoint: .bottom))
+            .ignoresSafeArea()
+                VStack {
+                    NavigationLink(destination: {
+                        ConfettiMenu()
+                    }, label: {
+                        Text("Confetti")
+                    }).buttonStyle(.borderedProminent)
+                        .padding()
+                    NavigationLink(destination: {
+                        AnimationView()
+                    }, label: {
+                        Text("Animation View")
+                    }).buttonStyle(.borderedProminent)
+                        .padding()
+                }
             }
         }
     }

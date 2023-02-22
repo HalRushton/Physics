@@ -26,8 +26,10 @@ struct AnimationView: View {
                     .padding(EdgeInsets(top: 0, leading: 0, bottom: 80, trailing: 0))
                 if updateRotation() {
                     cardView
+                    // TODO uncomment this to see impact of offset before rotation
 //                        .offset(y: 100)
                         .rotationEffect(Angle(radians: rotationObject.rotation * Double.pi * 2), anchor: rotationObject.unitPoint)
+                    // TODO uncomment this to see impact of offset after rotation
 //                        .offset(y: 100)
                 }
                 Button(action: {

@@ -19,6 +19,7 @@
 		3032C1D329A5A4E5003ABDB6 /* Color+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032C1D229A5A4E5003ABDB6 /* Color+Extras.swift */; };
 		3032C1D529A5C933003ABDB6 /* ConfettiMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032C1D429A5C933003ABDB6 /* ConfettiMenu.swift */; };
 		3032C1E229A5D112003ABDB6 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032C1E129A5D112003ABDB6 /* AnimationView.swift */; };
+		3032C1E429A661CD003ABDB6 /* Particle+Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032C1E329A661CD003ABDB6 /* Particle+Confetti.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		3032C1D229A5A4E5003ABDB6 /* Color+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extras.swift"; sourceTree = "<group>"; };
 		3032C1D429A5C933003ABDB6 /* ConfettiMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiMenu.swift; sourceTree = "<group>"; };
 		3032C1E129A5D112003ABDB6 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		3032C1E329A661CD003ABDB6 /* Particle+Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Particle+Confetti.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				3032C1C829A598FA003ABDB6 /* Particle.swift */,
 				3032C1CA29A598FA003ABDB6 /* ParticleSystem.swift */,
+				3032C1E329A661CD003ABDB6 /* Particle+Confetti.swift */,
 				3032C1C929A598FA003ABDB6 /* ConfettiView.swift */,
 				3032C1CB29A598FA003ABDB6 /* ConfettiViewCoordinator.swift */,
 				3032C1C729A598FA003ABDB6 /* ConfettiViewModel.swift */,
@@ -197,6 +200,7 @@
 				3032C1CC29A598FA003ABDB6 /* ConfettiViewModel.swift in Sources */,
 				3032C1D029A598FA003ABDB6 /* ConfettiViewCoordinator.swift in Sources */,
 				3032C1D529A5C933003ABDB6 /* ConfettiMenu.swift in Sources */,
+				3032C1E429A661CD003ABDB6 /* Particle+Confetti.swift in Sources */,
 				3032C1CD29A598FA003ABDB6 /* Particle.swift in Sources */,
 				3032C1B029A596F9003ABDB6 /* ContentView.swift in Sources */,
 				3032C1CE29A598FA003ABDB6 /* ConfettiView.swift in Sources */,
